@@ -44,7 +44,7 @@ public class MixinTest
 
         ItemStack item = ItemEntity.merge(hundredBrick, twoHundredBrick, 300);
 
-        Assertions.assertEquals(128, item.getCount());
+        Assertions.assertEquals(128000, item.getCount());
     }
 
     @Test
